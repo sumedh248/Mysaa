@@ -1,0 +1,51 @@
+#addToCard {
+    text-align: center;
+    border-radius: 1.5rem;
+    border: none;
+    border-width: 0.5rem;
+    color: black;
+    background-color: #b9ffe9f1;
+    box-shadow: 1px 3px #ccc;
+}   
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #b9ffe9f1;
+    border-color: #b9ffe9f1;
+}
+
+i {
+    color: white;
+    font-size: 0.8rem;
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+    width: 2rem;
+    height: 2rem;
+    background-color: #828282f1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    width: 380px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px 0px #ccc;
+}
+
+.carousel-inner {
+    height: 200px;
+}
+
+.carousel-item {
+    height: 200px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.card-body{
+    height: 200px;
+}

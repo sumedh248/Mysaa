@@ -18,7 +18,7 @@ function Navbar() {
             to="/products"
             style={{ fontSize: "22px" }}
           >
-            <i class="fa-brands fa-magento"></i> Mysa
+            <i className="fa-brands fa-magento"></i> Mysa
           </Link>
 
           {/* TOGGLE (Mobile) */}
@@ -56,7 +56,7 @@ function Navbar() {
               {/* CART BUTTON */}
               <li className="nav-item">
                 <Link to="/cart" className="btn btn-outline-dark rounded-pill px-3">
-                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i className="fa-solid fa-cart-shopping"></i>
                 </Link>
               </li>
 
